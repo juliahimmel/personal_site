@@ -60,14 +60,31 @@
 
 /*NAV*/
 
+.nav {
+
+	width: 21%;
+	margin: auto;
+	padding-top: 7px;
+}
+
 ul.icons {
 	list-style: none;
+	-webkit-padding-start: 0;
+
 }
 
 ul.icons li {
 	display: inline;
-
+	margin: 0 9%;
 } 
+
+ul.icons li img {
+	opacity: 0.5;
+}
+
+ul.icons li img:hover {
+	opacity: 0.8;
+}
 
 
 /*.subhead:hover {
