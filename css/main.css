@@ -1,0 +1,65 @@
+.container {
+	width: 80%;
+	margin: auto;
+}
+
+/*TYPE*/
+
+.name {
+	font-family: "adobe-caslon-pro", "Georgia", serif;
+	font-weight: 400;
+	font-size: 2.2em;
+	text-align: center;
+	margin: 80px 0 30px 0;
+	color: #919191;
+}
+
+#kern {
+	letter-spacing: -0.05em;
+}
+
+.subhead {
+	font-family: "museo-sans", "Futura", sans-serif;
+	text-transform: uppercase;
+	font-weight: 700;
+	font-size: 0.8em;
+	letter-spacing: 0.2em;
+	text-align: center;
+}
+
+.projects p {
+	font-family: "museo-sans", "Futura", sans-serif;
+	text-transform: uppercase;
+	font-weight: 100;
+	font-size: 0.8em;
+	letter-spacing: 0.2em;
+	text-align: center;
+	-webkit-margin-before: 0;
+	-webkit-margin-after: 0;
+	margin-top: -5px;
+}
+
+/*DIVS*/
+
+.rule {
+	border-top: 1px dotted #000;
+	width: 45%;
+	display: inline-block;
+	float:right;
+}
+
+.projects {
+	display: inline-block;
+	float: right;
+	width: 10%;
+}
+
+.project_list {
+	margin-top: 100px;
+}
+
+
+/*.subhead:hover {
+	color: #d4d4d4;
+}*/
+
