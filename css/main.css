@@ -58,6 +58,17 @@
 	margin-top: 100px;
 }
 
+/*NAV*/
+
+ul.icons {
+	list-style: none;
+}
+
+ul.icons li {
+	display: inline;
+
+} 
+
 
 /*.subhead:hover {
 	color: #d4d4d4;
