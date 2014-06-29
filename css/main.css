@@ -48,6 +48,7 @@
 ul.icons {
 	list-style: none;
 	-webkit-padding-start: 0;
+	white-space: nowrap;
 
 }
 
