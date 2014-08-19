@@ -27,36 +27,13 @@
 	text-align: center;
 }
 
-.projects p {
+#email {
 	font-family: "museo-sans", "Futura", sans-serif;
 	text-transform: uppercase;
 	font-weight: 100;
-	font-size: 0.6em;
+	font-size: 0.8em;
 	letter-spacing: 0.2em;
 	text-align: center;
-	-webkit-margin-before: 0;
-	-webkit-margin-after: 0;
-	margin-top: -5px;
-}
-
-.project_list ul li {
-	font-family: "museo-sans", "Futura", sans-serif;
-	text-transform: uppercase;
-	font-weight: 700;
-	font-size: 0.7em;
-	letter-spacing: 0.1em;
-}
-
-.proj_name {
-	font-family: "adobe-caslon-pro", "Georgia", serif;
-	font-weight: 400;
-	font-style: italic;
-	font-size: 1.2em;
-	letter-spacing: 0;
-	text-decoration: none;
-	text-transform: none;
-	color: #000;
-
 }
 
 /*NAV*/
@@ -71,6 +48,7 @@
 ul.icons {
 	list-style: none;
 	-webkit-padding-start: 0;
+	white-space: nowrap;
 
 }
 
@@ -88,35 +66,12 @@ ul.icons li img:hover {
 	opacity: 0.8;
 }
 
-/*PROJECTS*/
+/*CONTACT*/
 
-.rule {
-	border-top: 1px dotted #000;
-	width: 45%;
-	display: inline-block;
-	float:right;
+#contact {
+	padding-top: 7px;
 }
 
-.projects {
-	display: inline-block;
-	float: right;
-	width: 10%;
-}
 
-.project_list {
-	margin-top: 100px;
-}
-
-.project_list ul {
-	list-style: none;
-	padding-top: 60px;
-	margin-left: 180px;
-	-webkit-padding-start: 0;
-}
-
-.project_list ul li {
-	display: inline;
-	margin-right: 15%;
-}
 
 
