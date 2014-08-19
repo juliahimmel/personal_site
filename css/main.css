@@ -1,60 +1,71 @@
-.container {
-	width: 80%;
-	margin: auto;
-}
-
 /*TYPE*/
 
-.name {
-	font-family: "adobe-caslon-pro", "Georgia", serif;
-	font-weight: 400;
-	font-size: 2.2em;
-	text-align: center;
-	margin: 80px 0 30px 0;
-	color: #919191;
+.name h3 {
+  font-family: "effra", "Futura", sans-serif;
+  font-weight: 700;
+  color: #7bd3f7;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  text-align: center;
+  font-size: 8em;
+  margin: 0;
+  
 }
 
-#kern {
-	letter-spacing: -0.05em;
-}
-
-.subhead {
-	font-family: "museo-sans", "Futura", sans-serif;
-	text-transform: uppercase;
-	font-weight: 700;
-	font-size: 0.8em;
-	letter-spacing: 0.2em;
-	text-align: center;
+.desc p {
+  font-family: "adobe-caslon-pro", "Georgia", serif;
+  font-style: italic;
+  text-align: center;
+  margin: 0;
+  padding: 0;
 }
 
 #email {
-	font-family: "museo-sans", "Futura", sans-serif;
+	font-family: "adobe-caslon-pro", "Georgia", serif;
 	text-transform: uppercase;
-	font-weight: 100;
+	font-weight: 600;
 	font-size: 0.8em;
 	letter-spacing: 0.2em;
 	text-align: center;
 }
+
+/*NAME AND DESC DIVS*/
+
+.name {
+  position: fixed;
+  width: 100%;
+  margin: 7% 0 0 0;
+  z-index: 0;
+}
+
+
+.desc {
+  width: 12%;
+  border-left: 1px solid #000;
+  border-right: 1px solid #000;
+  position: absolute;
+  left: 43%;
+  top: 30%;
+}
+
 
 /*NAV*/
 
 .nav {
-
-	width: 21%;
+	width: 30%;
 	margin: auto;
-	padding-top: 7px;
+	padding: 32% 0 3% 0;
 }
 
 ul.icons {
 	list-style: none;
 	-webkit-padding-start: 0;
 	white-space: nowrap;
-
 }
 
 ul.icons li {
 	display: inline;
-	margin: 0 9%;
+	margin: 0 36% 0 0;
 } 
 
 ul.icons li img {
@@ -69,7 +80,7 @@ ul.icons li img:hover {
 /*CONTACT*/
 
 #contact {
-	padding-top: 7px;
+	position: relative;
 }
 
 
