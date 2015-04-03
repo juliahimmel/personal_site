@@ -20,9 +20,21 @@ li {
   height: 150px;
 }
 
-.rule {
-  width: 100%;
-  border-bottom: 1px solid black;
+.about {
+  display: inline-block;
 }
+
+.about,
+.projects,
+footer {
+  border-top: 1px solid black;
+}
+
+/*Typography*/
+
+body {
+  font-family: font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;
+}
+
 
 
