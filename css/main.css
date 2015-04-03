@@ -1,88 +1,28 @@
-/*TYPE*/
+* { box-sizing: border-box; }
 
-.name h3 {
-  font-family: "effra", "Futura", sans-serif;
-  font-weight: 700;
-  color: #7bd3f7;
-  text-transform: uppercase;
-  letter-spacing: 0.2em;
-  text-align: center;
-  font-size: 8em;
-  margin: 0;
+ul {
   
+  -webkit-margin-before: 0;
+  -webkit-margin-after: 0;
+  -webkit-margin-start: 0px;
+  -webkit-margin-end: 0px;
+  -webkit-padding-start: 0;
 }
 
-.desc p {
-  font-family: "adobe-caslon-pro", "Georgia", serif;
-  font-style: italic;
-  text-align: center;
-  margin: 0;
-  padding: 0;
+li {
+  display: inline-block;
+  list-style: none;
 }
 
-#email {
-	font-family: "adobe-caslon-pro", "Georgia", serif;
-	text-transform: uppercase;
-	font-weight: 600;
-	font-size: 0.8em;
-	letter-spacing: 0.2em;
-	text-align: center;
+.thumb {
+  background: purple;
+  width: 200px;
+  height: 150px;
 }
 
-/*NAME AND DESC DIVS*/
-
-.name {
-  position: fixed;
+.rule {
   width: 100%;
-  margin: 7% 0 0 0;
-  z-index: 0;
+  border-bottom: 1px solid black;
 }
-
-
-.desc {
-  width: 12%;
-  border-left: 1px solid #000;
-  border-right: 1px solid #000;
-  position: absolute;
-  left: 43%;
-  top: 30%;
-}
-
-
-/*NAV*/
-
-.nav {
-	width: 30%;
-	margin: auto;
-	padding: 32% 0 3% 0;
-}
-
-ul.icons {
-	list-style: none;
-	-webkit-padding-start: 0;
-	white-space: nowrap;
-}
-
-ul.icons li {
-	display: inline;
-	margin: 0 36% 0 0;
-} 
-
-ul.icons li img {
-	transition: opacity 0.3s ease;
-	opacity: 0.5;
-}
-
-ul.icons li img:hover {
-	opacity: 0.8;
-}
-
-/*CONTACT*/
-
-#contact {
-	position: relative;
-}
-
-
 
 
