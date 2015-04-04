@@ -28,14 +28,19 @@ li {
   margin: 0 0 2.2em 0;
 }
 
+.sec-title,
+.intro h1 {
+  padding-left: 15px;
+}
+
 .projects li div {
   margin: 0 auto; 
 }
 
 .thumb {
   background: purple;
-  width: 230px;
-  height: 180px;
+  width: 100%;
+  height: 220px;
 }
 
 .about {
