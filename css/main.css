@@ -19,10 +19,14 @@ li {
   border-bottom: 1px solid black;
 }
 
-.projects,
+.section {
+  padding: 3em 0 3.2em 0;
+}
+
+/*.projects,
 .about {
   padding: 2em 0 0;
-}
+}*/
 
 .projects li {
   margin: 0 0 2.2em 0;
@@ -60,6 +64,7 @@ footer {
 
 body {
   font-family: TimesNewRoman, 'Times New Roman', Times, Baskerville, Georgia, serif;
+  font-size: 16px;
 }
 
 h1,
@@ -74,12 +79,14 @@ h6 {
 .intro h1,
 h3.sec-title,
 .desc h4 {
-  font-family: Futura, 'Trebuchet MS', Arial, sans-serif;
+  /*font-family: Futura, 'Trebuchet MS', Arial, sans-serif;*/
+  font-weight: bold;
 }
 
 .intro h1 {
-  font-weight: 600;
-  font-size: 1.4em;
+  font-weight: bold;
+  /*font-weight: 600;*/
+  font-size: 1.7em;
 }
 
 .intro .slash {
@@ -97,7 +104,7 @@ h3.sec-title,
 .intro h2,
 .intro-graf {
   font-style: italic;
-  font-size: 1.4em;
+  font-size: 1.7em;
   margin-left: -0.2em;
 }
 
@@ -116,10 +123,12 @@ h3.sec-title {
 }
 
 .desc h4 {
-  font-size: 0.82em;
+  font-weight: bold;
+  font-size: 1em;
+/*  font-size: 0.82em;
   font-weight: 800;
   text-transform: uppercase;
-  letter-spacing: 0.07em;
+  letter-spacing: 0.07em;*/
 }
 
 .desc h5 {
