@@ -14,6 +14,10 @@ li {
   list-style: none;
 }
 
+a:hover {
+  color: rgb(163, 223, 232);
+}
+
 .intro {
   padding: 3em 0 0.5em 0;
   /*border-bottom: 4px solid black;*/
@@ -76,6 +80,14 @@ li {
   height: 220px;
 }
 
+.thumb:hover {
+  background: rgb(163, 223, 232);
+}
+
+/*.projects li:hover {
+  color: rgb(163, 223, 232);
+}*/
+
 .about {
   display: inline-block;
   margin-top: -2em;
@@ -118,6 +130,7 @@ h6 {
   display: inline-block;
   -webkit-margin-before: 0;
   -webkit-margin-after: 0;
+  text-rendering: optimizeLegibility;
 }
 
 .intro h1 {
@@ -173,11 +186,9 @@ h3.sec-title {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   display: block;
-  font-size: 13.9em;
-  line-height: 0.95;
+  font-size: 11.8em;
   white-space: nowrap;
+  margin-bottom: -0.4em;
 }
-
-
 
 
